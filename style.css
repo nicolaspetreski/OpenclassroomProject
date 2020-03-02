@@ -1,0 +1,216 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   font-family: "Montserrat", "arial", "sans-serif";
+	
+}
+
+
+.resume {
+  width: auto;
+  height: auto;
+  display: flex;
+  
+}
+
+li 
+{
+    list-style-type: none;
+}
+
+.resume .resume_gauche
+{
+    background: rgb(254,202,7);
+    width: 400px; 
+}
+
+.resume .resume_gauche .photo img
+{
+  
+  height: 200px;
+  
+}
+
+
+.resume .resume_gauche .resume_contenu 
+{
+  padding: 0;
+}
+
+.resume .contact 
+{
+  text-align: center;
+}
+
+.propos
+{
+  text-align: center;
+}
+
+.resume .loisirs
+{
+    text-align: center;
+
+}
+.resume .resume_gauche .loisirs i
+{
+padding-right: 20px;
+padding-left: 20px;
+padding-top: 20px;
+}
+
+.resume .resume_gauche .bold
+{
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(254,202,7);
+    background-color: rgb(64,64,64);
+    
+}
+
+.resume .resume_gauche ul li 
+{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  
+}
+
+.resume .resume_gauche .propos
+{
+    margin-top: 30px;
+}
+
+.resume .resume_gauche ul li:last-child 
+{
+  margin-bottom: 0;
+}
+.propos p
+{
+margin-top: 30px;
+ padding-left: 40px;
+ padding-right: 40px;
+ text-align: justify;
+}
+
+.resume .resume_gauche .loisirs
+{
+    padding-top: 30px;
+}
+
+.resume .resume_droite 
+{
+  width: 520px;
+  background: #fff;
+  
+}
+
+.resume .resume_droite
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.resume .resume_droite .recommandations li
+{
+     display: flex;
+    flex-direction: column;
+
+}
+
+
+img
+{
+    transform: scale(0.9);
+   border-radius: 50%;
+   box-shadow: 0px 0px 5px 5px rgba(0, 0 , 0, 0.3);
+
+}
+
+.date
+{
+    text-decoration: 
+}
+
+.resume .resume_droite
+{
+    width: 600px;
+    padding: 25px;
+    margin-left: 50px;
+}
+
+.resume .resume_droite  ul li 
+{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  
+}
+
+.recommandations ul
+{
+
+   display: flex; 
+flex-direction: row;
+}
+
+.titre .bold2
+{
+    text-transform: uppercase;
+    color: rgb(254,202,7);
+    font-weight: 700;
+    font-size: 3.5em;
+}
+
+.titre .light
+{
+    font-weight: 400;
+    font-size: 3.5em;
+}
+
+.regular 
+{
+    color:rgb(74,74,74);
+    font-size: 1.9em;
+    font-weight: 500;
+}
+
+.regular span
+{
+    border-bottom: 2px solid rgb(254,202,7)
+}
+.bold2
+{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.bold3
+{
+    font-weight: 500;
+    font-size: 1.9em;
+    text-transform: uppercase;
+}
+
+.boldupper
+{
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+.littlebold
+{
+    font-weight: 700;
+}
+
+
+
+
+
