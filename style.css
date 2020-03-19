@@ -6,15 +6,6 @@ font-family: "Montserrat", "arial", "sans-serif";
 
 }
 
-
-.resume 
-{
-width: 100%;
-height: auto;
-display: flex;
-margin: auto;
-}
-
 li 
 {
 list-style-type: none;
@@ -22,8 +13,12 @@ list-style-type: none;
 
 .resume_gauche
 {
+display: flex;
+flex-direction: column;
 background: rgb(254,202,7);
-width: 370px; 
+width: 23em;
+position: absolute;
+top: 0px;
 }
 
 img
@@ -31,6 +26,7 @@ img
 transform: scale(0.9);
 border-radius: 50%;
 box-shadow: 0px 0px 2px 3px rgba(255, 160, 0, 1);
+
 }
 
 .box
@@ -38,8 +34,8 @@ box-shadow: 0px 0px 2px 3px rgba(255, 160, 0, 1);
 display: flex;
 justify-content: center;
 align-items: center;
-padding-top: 30px;
-padding-bottom: 30px;
+padding-top: 1.875em;
+padding-bottom: 1.875em;
 }
 .contact ul, .propos p + p
 {
@@ -49,8 +45,8 @@ font-weight: 500;
 
 .contact ul
 {
-padding-top: 20px;
-padding-left: 40px;
+padding-top: 1.25em;
+padding-left: 2.5em;
 }
 
 .contact ul li
@@ -60,25 +56,25 @@ margin: 0 0 20px 0;
 
 .propos p + p
 {
-padding: 30px;
+padding: 1.875em;
 text-align: justify;
-margin-bottom: 400px;
+margin-bottom: 25em;
 }
 
 .loisirs i
 {
-padding: 30px;
+padding: 0.5em;
 color:rgb(74,74,74);
 }
 
 .bold
 {
 font-weight: 700;
-font-size: 25px;
+font-size: 1.563em;
 text-transform: uppercase;
 color: rgb(254,202,7);
 background-color: rgb(64,64,64);
-height: 50px;
+height: 3.125em;
 text-align: center;
 display: flex;
 justify-content: center;
@@ -92,15 +88,15 @@ align-items: center;
 /**deuxieme partie**/ /**deuxieme partie**/ /**deuxieme partie**//**deuxieme partie**/ 
 /**deuxieme partie**/ /**deuxieme partie**/ /**deuxieme partie**//**deuxieme partie**/ 
 
-.resume_droite
+.resume_droite, header
 {
-width: 740px;
-padding-left: 70px;
+width: 46.250em;
+padding-left: 26.875em;
 }
 
 h1
 {
-padding-top: 100px;
+padding-top: 6.250em;
 }
 
 h1 .bold2
@@ -120,7 +116,7 @@ font-size: 2em;
 .bold2
 {
 font-weight: 500;
-font-size: 20px;
+font-size: 1.250em;
 text-transform: uppercase;
 }
 
@@ -156,9 +152,7 @@ color:rgb(74,74,74);
 
 .resume_droite  ul li 
 {
-margin-top: 30px;
-margin-bottom: 30px;
-margin-left: 30px;
+margin: 1.875em 0 1.875em 1.875em;
 }
 
 .boldupper
@@ -174,7 +168,7 @@ font-weight: 500;
 
 .formation
 {
-padding-top: 140px;
+padding-top: 8.750em;
 }
 
 p i
@@ -201,28 +195,28 @@ font-weight: 500;
 color: rgb(74,74,74);
 display: flex;
 justify-content: space-between;
-margin: 10px;
+margin: 0.625em;
 }
 
 .texte
 {
- margin: 20px;
- max-width: 400px;
+ margin: 1.250em;
+ max-width: 25em;
 }
 
 .texte p
 {
-padding-top: 110px;
+padding-top: 6.875em;
 }
 
 div p
 {
-margin-top: 20px;
+margin-top: 1.250em;
 }
 
 .recommandations ul
 {
-width: 600px;
+width: 37em;
 color: rgb(74,74,74);
 display: flex; 
 flex-direction: row;
@@ -242,4 +236,38 @@ justify-content: space-between;
 .block2 span
 {
 text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px)
+{
+  .resume
+  {
+    width: 100%;
+  }
+  
+  .resume_gauche
+  {
+    bottom: 0;
+    width: 100vw;
+    height: 22rem;
+    
+    position: relative;
+
+  }
+
+  .box
+  {
+    display: none;
+  }
+
+  .resume_droite
+  {
+    width: 100vw;
+    padding: 0;
+  }
+
+  .propos p + p
+  {
+    width: 300px;
+  }
 }
