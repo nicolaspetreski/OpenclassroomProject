@@ -235,3 +235,123 @@ font-size: 16px;
 font-weight: 500;
 margin-bottom: 0.7em;
 }
+
+/**-------------OMEGA BIG SCREEN-------------**//**-------------OMEGA BIG SCREEN-------------**/
+/**-------------OMEGA BIG SCREEN-------------**//**-------------OMEGA BIG SCREEN-------------**/
+/**-------------OMEGA BIG SCREEN-------------**//**-------------OMEGA BIG SCREEN-------------**/
+
+@media screen and (min-width: 1920px) and (max-width: 2560px) 
+{
+
+h1 .bold2
+{
+text-transform: uppercase;
+color: #FF6F28;
+font-weight: 500;
+font-size: 4.7em;
+}
+
+h1 .light
+{
+font-weight: 200;
+font-size: 4.7em;
+}
+
+h3
+{
+  padding-left: 0.2em;
+  font-size: 3.5em;
+}
+
+h2
+{
+  font-size: 3em;
+}
+
+h5
+{
+  font-size: 1em;
+}
+
+p
+{
+  font-size: 1.8em;
+}
+
+header
+{
+  padding-bottom: 3em;
+}
+.bold
+{
+  font-size: 2.5em;
+}
+
+.contact ul
+{
+  font-size: 1.8em;
+}
+
+.propos p+p
+{
+  font-size: 1.8em;
+  margin-bottom: 2em;
+}
+.texte
+{
+  width: 80%;
+  text-align: justify;
+  padding-right:  2em;
+  font-size: 1.8em;
+}
+
+section ul li p
+{
+  width: 20%
+}
+
+.block ul
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 10em;
+  font-size: 1.8em;
+
+}
+
+.resume_gauche
+{
+  height: 133em;
+  width: 30em;
+}
+
+.bold
+{
+  
+  bottom: 0
+  
+}
+
+article
+{
+  padding: 2em 0 1em 0;
+}
+
+.loisirs 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 2em;
+  font-size: 1.4em;
+}
+
+
+.resume_droite, header
+{
+  padding-left: 35em;
+}
+
+}
