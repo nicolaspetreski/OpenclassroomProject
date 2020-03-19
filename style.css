@@ -3,7 +3,9 @@
 margin: 0;
 padding: 0;
 font-family: "Montserrat", "arial", "sans-serif";
+
 }
+
 
 li 
 {
@@ -14,13 +16,14 @@ list-style-type: none;
 {
 display: flex;
 flex-direction: column;
-background: rgb(254,202,7);
+background: #FF6F28;
 width: 23em;
 position: absolute;
 top: 0px;
+height: auto;
 }
 
-img
+.resume_gauche .box img
 {
 transform: scale(0.9);
 border-radius: 50%;
@@ -38,7 +41,7 @@ padding-bottom: 1.875em;
 }
 .contact ul, .propos p + p
 {
-color:rgb(74,74,74);
+color:rgb(47,46,42);
 font-weight: 500;
 }
 
@@ -53,17 +56,26 @@ padding-left: 2.5em;
 margin: 0 0 20px 0;
 }
 
+a:link
+{
+color:rgb(47,46,42);
+}
+
+a:hover
+{
+  color: white;
+}
 .propos p + p
 {
 padding: 1.875em;
 text-align: justify;
-margin-bottom: 25em;
+margin-bottom: 20em;
 }
 
 .loisirs i
 {
 padding: 0.5em;
-color:rgb(74,74,74);
+color:rgb(47,46,42);
 }
 
 .bold
@@ -71,8 +83,8 @@ color:rgb(74,74,74);
 font-weight: 700;
 font-size: 1.563em;
 text-transform: uppercase;
-color: rgb(254,202,7);
-background-color: rgb(64,64,64);
+color: #FF6F28;
+background-color: rgb(47,46,42);
 height: 3.125em;
 text-align: center;
 display: flex;
@@ -87,21 +99,29 @@ align-items: center;
 /**deuxieme partie**/ /**deuxieme partie**/ /**deuxieme partie**//**deuxieme partie**/ 
 /**deuxieme partie**/ /**deuxieme partie**/ /**deuxieme partie**//**deuxieme partie**/ 
 
-.resume_droite, header
+.resume_droite
 {
-width: 46.250em;
-padding-left: 26.875em;
+padding-left: 25em;
+}
+header
+{
+  padding-left: 25em;
+}
+
+header .box
+{
+  display: none;
 }
 
 h1
 {
-padding-top: 6.250em;
+padding-top: 4.250em;
 }
 
 h1 .bold2
 {
 text-transform: uppercase;
-color: rgb(254,202,7);
+color: #FF6F28;
 font-weight: 500;
 font-size: 2em;
 }
@@ -110,6 +130,7 @@ h1 .light
 {
 font-weight: 200;
 font-size: 2em;
+color: rgb(47,46,42);
 }
 
 .bold2
@@ -124,149 +145,93 @@ h2
 font-weight: 500;
 font-size: 1.9em;
 text-transform: uppercase;
-
+color: rgb(47,46,42);
 }
 
 h2::after
 {
 content: " ";
 display: block;
-  border-bottom: 2px solid rgb(254,202,7)
+  border-bottom: 2px solid #FF6F28;
 }
 
 h2 i
 {
-color:rgb(254,202,7);
+color: #FF6F28;
+}
+
+section ul li p i
+{
+  color: #FF6F28;
+
+}
+
+section ul li p
+{
+  font-weight: 500;
+  color: rgb(47,46,42);
 }
 
 h3 span
 {
-border-bottom: 2px solid rgb(254,202,7)
+border-bottom: 2px solid #FF6F28;
 }
 
 h3
 {
-color:rgb(74,74,74);
+color: rgb(47,46,42);
 }
 
-.resume_droite  ul li 
+ section
 {
-margin: 1.875em 0 1.875em 1.875em;
+padding-top: 2.750em;
 }
 
-.boldupper
+article ul li, section ul li
 {
-font-weight:700;
-text-transform: uppercase;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  margin: 1.875em 0 1.875em 1.875em;
 }
 
-.littlebold
+article i
 {
-font-weight: 500;
+color: #FF6F28;
 }
 
-.formation
+article li p
 {
-padding-top: 8.750em;
+  font-weight: 500;
+  color: rgb(47,46,42);
 }
-
-p i
-{
-color:rgb(254,202,7);
-}
-
-.formation ul
-{
-display: flex;
-flex-direction: row;
-align-items: stretch;
-}
-
-.block p span
-{
-font-weight: 700;
-text-transform: uppercase;
-}
-
-.block
-{
-font-weight: 500;
-color: rgb(74,74,74);
-display: flex;
-justify-content: space-between;
-margin: 0.625em;
-}
-
 .texte
 {
- margin: 1.250em;
- max-width: 25em;
+ color: rgb(47,46,42);
+ font-weight: 500;
 }
 
-.texte p
+
+.block ul 
 {
-padding-top: 6.875em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  color: rgb(47,46,42);
 }
 
-div p
-{
-margin-top: 1.250em;
-}
-
-.recommandations ul
-{
-width: 37em;
-color: rgb(74,74,74);
-display: flex; 
-flex-direction: row;
-justify-content: space-between;
-justify-content: flex-start;
-}
-
-.block2
-{
-font-weight: 500;
-color: rgb(74,74,74);
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
-
-.block2 span
+h4
 {
 text-transform: uppercase;
+color: rgb(47,46,42);
+margin-bottom: 0.7em;
 }
 
-@media screen and (max-width: 600px)
+h5
 {
-  .resume
-  {
-    width: 100%;
-  }
-  
-  .resume_gauche
-  {
-    bottom: 0;
-    width: 100vw;
-    height: 22rem;
-    
-    position: relative;
-
-  }
-
-  .box
-  {
-    display: none;
-  }
-
-  .resume_droite
-  {
-    width: 100vw;
-    padding: 0;
-  }
-
-  .propos p + p
-  {
-    width: 300px;
-  }
+color: rgb(47,46,42);
+font-size: 16px;
+font-weight: 500;
+margin-bottom: 0.7em;
 }
