@@ -631,3 +631,94 @@ article
 }
 
 }
+
+/** -------------------- IPAD -----------------------*//** -------------------- IPAD -----------------------*//** -------------------- IPAD -----------------------*//** -------------------- IPAD -----------------------*/
+/** -------------------- IPAD -----------------------*//** -------------------- IPAD -----------------------*//** -------------------- IPAD -----------------------*/
+/** -------------------- IPAD -----------------------*//** -------------------- IPAD -----------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) 
+{
+  
+
+  .resume_gauche
+  {
+  width: 100%;
+  height: auto;
+  position: relative;
+  }
+
+  .contact ul 
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+
+  .box
+  {
+  display: none;
+  }
+
+  
+  .resume_droite, header
+  {
+  width: 100%;
+  padding: 0;
+  }
+
+  .loisirs
+  {
+    display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+    
+  }
+
+  .propos p + p
+  {
+  padding: 1.875em;
+  text-align: justify;
+  margin-bottom: 5em;
+  }
+
+  header .box 
+  {
+  display: inline;
+  }
+
+  header
+  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  header .box img
+  {
+  transform: scale(0.9);
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 3px rgba(255, 160, 0, 1);
+  }
+
+  .texte
+  {
+    width: 80%;
+    text-align: justify;
+    padding-right:  2em;
+  }
+
+  .block ul
+  {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  h2
+  {
+    padding-left: 0.7em;
+  }
+}
