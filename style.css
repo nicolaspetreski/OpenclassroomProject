@@ -574,3 +574,60 @@ article
 }
 
 }
+
+/** -------------------LAPTOP--------------------**//** -------------------LAPTOP--------------------**/
+/** -------------------LAPTOP--------------------**//** -------------------LAPTOP--------------------**/
+/** -------------------LAPTOP--------------------**//** -------------------LAPTOP--------------------**/
+@media screen and (min-width: 1024px) and (max-width: 1279px) 
+{
+
+.texte
+{
+  width: 75%;
+  text-align: justify;
+  padding-right:  2em;  
+}
+section ul li p
+{
+  width: 25%;
+}
+
+.propos p + p
+{
+margin-bottom: 5em;
+}
+
+.block ul
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 7em;
+
+}
+
+.resume_gauche
+{
+  height: 88em;
+}
+
+.bold
+{
+  
+  bottom: 0
+  
+}
+
+
+article
+{
+  padding: 2em 0 1em 0;
+}
+
+.loisirs i
+{
+  padding-top: 1em;
+  padding-left: 0.7em;
+}
+
+}
