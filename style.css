@@ -468,3 +468,109 @@ article
 }
 
 }
+
+/**----------------BIG SCREEN-------------**//**----------------BIG SCREEN-------------**/
+/**----------------BIG SCREEN-------------**//**----------------BIG SCREEN-------------**/
+/**----------------BIG SCREEN-------------**//**----------------BIG SCREEN-------------**/
+@media screen and (min-width: 1280px) and (max-width: 1439px) 
+{
+
+h1 .bold2
+{
+text-transform: uppercase;
+color: #FF6F28;
+font-weight: 500;
+font-size: 3em;
+}
+
+h1 .light
+{
+font-weight: 200;
+font-size: 3em;
+}
+
+h1
+{
+  text-align: left;
+}
+
+h3
+{
+  text-align: left;
+  font-size: 2em;
+}
+
+h5
+{
+  font-size: 1em;
+}
+.bold
+{
+  font-size: 1.5em;
+}
+
+.contact ul
+{
+  font-size: 1.3em;
+}
+
+.propos p+p
+{
+  margin-bottom: 2em;
+  font-size: 1.3em;
+}
+
+section ul li p
+{
+  width: 20%;
+}
+
+
+p
+{
+  font-size: 1.3em;
+}
+
+.texte
+{
+  width: 80%;
+  text-align: justify;
+  padding-right:  2em;
+  font-size: 1.3em; 
+}
+
+
+.block ul
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 10em;
+  font-size: 1.3em;
+
+}
+
+.resume_gauche
+{
+  height: 105em;
+}
+
+.bold
+{
+  
+  bottom: 0
+  
+}
+
+article
+{
+  padding: 2em 0 1em 0;
+}
+
+.loisirs i
+{
+  padding-top: 1em;
+  padding-left: 0.7em;
+}
+
+}
