@@ -355,3 +355,116 @@ article
 }
 
 }
+
+/**-----------EVEN BIGGER SCREENS----------**//**-----------EVEN BIGGER SCREENS----------**/
+/**-----------EVEN BIGGER SCREENS----------**//**-----------EVEN BIGGER SCREENS----------**/
+/**-----------EVEN BIGGER SCREENS----------**//**-----------EVEN BIGGER SCREENS----------**/
+@media screen and (min-width: 1440px) and (max-width: 1920px) 
+{
+
+h1 .bold2
+{
+text-transform: uppercase;
+color: #FF6F28;
+font-weight: 500;
+font-size: 3.7em;
+}
+
+h1 .light
+{
+font-weight: 200;
+font-size: 3.7em;
+}
+
+h3
+{
+  padding-left: 0.2em;
+  font-size: 3em;
+}
+
+h2
+{
+  font-size: 2.2em;
+}
+
+h5
+{
+  font-size: 1em;
+}
+
+p
+{
+  font-size: 1.5em;
+}
+
+header
+{
+  padding-bottom: 3em;
+}
+.bold
+{
+  font-size: 1.7em;
+}
+
+.contact ul
+{
+  font-size: 1.3em;
+}
+
+.propos p+p
+{
+  font-size: 1.3em;
+  margin-bottom: 2em;
+}
+.texte
+{
+
+  width: 80%;
+  text-align: justify;
+  padding-right:  2em;
+  font-size: 1.3em;
+}
+
+section ul li p
+{
+  width: 20%;
+}
+
+
+.block ul
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 10em;
+  font-size: 1.3em;
+
+}
+
+.resume_gauche
+{
+  height: 105em;
+}
+
+.bold
+{
+  
+  bottom: 0
+  
+}
+
+article
+{
+  padding: 2em 0 1em 0;
+}
+
+.loisirs 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 2em;
+}
+
+}
