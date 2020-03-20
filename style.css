@@ -218,34 +218,34 @@ h1 .bold2
 text-transform: uppercase;
 color: #FF6F28;
 font-weight: 500;
-font-size: 4.7em;
+font-size: 4.3em;
 }
 
 h1 .light
 {
 font-weight: 200;
-font-size: 4.7em;
+font-size: 4.3em;
 }
 
 h3
 {
 padding-left: 0.2em;
-font-size: 3.5em;
+font-size: 3em;
 }
 
 h2
 {
-font-size: 3em;
+font-size: 2em;
 }
 
 h5
 {
-font-size: 1em;
+font-size: 0.9em;
 }
 
 p
 {
-font-size: 1.8em;
+font-size: 1.5em;
 }
 
 header
@@ -255,17 +255,17 @@ padding-bottom: 3em;
 
 .bold
 {
-font-size: 2.5em;
+font-size: 2em;
 }
 
 .contact ul
 {
-font-size: 1.8em;
+font-size: 1.5em;
 }
 
 .propos p+p
 {
-font-size: 1.8em;
+font-size: 1.5em;
 margin-bottom: 2em;
 }
 
@@ -274,7 +274,7 @@ margin-bottom: 2em;
 width: 80%;
 text-align: justify;
 padding-right:  2em;
-font-size: 1.8em;
+font-size: 1.5em;
 }
 
 section ul li p
@@ -288,7 +288,7 @@ width: 20%
 flex-direction: row;
 justify-content: space-around;
 padding-right: 10em;
-font-size: 1.8em;
+font-size: 1.5em;
 }
 
 .resume_gauche
@@ -314,7 +314,7 @@ flex-direction: row;
 justify-content: center;
 justify-content: space-around;
 padding-top: 2em;
-font-size: 1.4em;
+font-size: 1.2em;
 }
 
 .resume_droite, header
