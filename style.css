@@ -174,7 +174,7 @@ article ul li, section ul li
 display:flex;
 flex-direction: row;
 justify-content: space-between; 
-padding: 1.7em 0 1em 0;
+padding: 1.7em 0 1.7em 0;
 }
 
 article li p
@@ -378,7 +378,7 @@ font-size: 1.3em;
 .propos p+p
 {
 font-size: 1.3em;
-margin-bottom: 4.5em;
+margin-bottom: 7.5em;
 }
 
 .texte
@@ -465,7 +465,7 @@ font-size: 1.3em;
 
 .propos p+p
 {
-margin-bottom: 5.5em;
+margin-bottom: 8.2em;
 font-size: 1.3em;
 }
 
@@ -528,7 +528,7 @@ width: 25%;
 
 .propos p + p
 {
-margin: 0em 0 7.5em 0;
+margin: 0em 0 9.4em 0;
 }
 
 .block ul
@@ -551,6 +551,7 @@ bottom: 0
 
 .loisirs i
 {
+padding-top: 1em;
 padding-left: 0.7em;
 }
 
