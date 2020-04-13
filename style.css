@@ -303,13 +303,10 @@ width: 30em;
 bottom: 0
 }
 
-.loisirs 
+.loisirs i
 {
-display: flex;
-flex-direction: row;
-justify-content: center;
-justify-content: space-around;
-font-size: 1.2em;
+font-size: 3em;
+padding-left: 1.3em;
 }
 
 .resume_droite, header
@@ -408,12 +405,9 @@ font-size: 1.3em;
 height: auto;
 }
 
-.loisirs 
+.loisirs i
 {
-display: flex;
-flex-direction: row;
-justify-content: center;
-justify-content: space-around;
+padding-left: 0.7em;
 }
 
 }
@@ -551,7 +545,8 @@ bottom: 0
 
 .loisirs i
 {
-padding-top: 1em;
+margin-top: 0.5em;
+margin-bottom: 0.7em;
 padding-left: 0.7em;
 }
 
@@ -589,11 +584,9 @@ width: 100%;
 padding: 0;
 }
 
-.loisirs
+.loisirs i
 {
-display: flex;
-justify-content: center;
-justify-content: space-around;  
+margin-left: 2.3em;
 }
 
 .propos p + p
@@ -624,7 +617,7 @@ box-shadow: 0px 0px 2px 3px rgba(255, 160, 0, 1);
 
 .texte
 {
-width: 80%;
+width: 70%;
 text-align: justify;
 padding-right:  2em;
 }
@@ -674,11 +667,9 @@ width: 100%;
 padding: 0;
 }
 
-.loisirs
+.loisirs i
 {
-display: flex;
-justify-content: center;
-justify-content: space-around;
+ margin: 0 0.5em 0 0.5em;
 }
 
 .contact ul 
@@ -788,8 +779,9 @@ width: 100%;
 padding: 0;
 }
 
-.loisirs
+.loisirs ~ i
 {
+  color: red;
 display: flex;
 justify-content: center;
 justify-content: space-around;
